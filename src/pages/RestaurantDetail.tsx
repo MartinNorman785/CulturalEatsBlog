@@ -61,11 +61,12 @@ const RestaurantDetail = () => {
         <div className="container relative z-10 flex h-full flex-col justify-end pb-8 text-white">
           <Button
             asChild
-            variant="outline"
-            className="mb-4 w-fit border-white text-white hover:bg-white/20 hover:text-white"
+            variant="default"
+            className="mb-4 w-fit font-bold text-lg shadow-md bg-primary text-white hover:bg-primary/90 px-5 py-2.5 backdrop-blur-sm"
+            size="lg"
           >
             <Link to="/restaurants">
-              <ArrowLeft className="mr-2" />
+              <ArrowLeft className="mr-2 h-5 w-5" />
               Back to Restaurants
             </Link>
           </Button>
