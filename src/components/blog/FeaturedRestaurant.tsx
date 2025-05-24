@@ -47,12 +47,6 @@ export function FeaturedRestaurant({ restaurant }: FeaturedRestaurantProps) {
           <Button asChild>
             <Link to={`/restaurant/${restaurant.id}`}>Read Review</Link>
           </Button>
-          <Button
-            variant="outline"
-            className="border-white text-white hover:bg-white/20 hover:text-white"
-          >
-            Save for Later
-          </Button>
         </div>
       </div>
     </div>
