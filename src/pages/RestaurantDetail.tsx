@@ -106,37 +106,6 @@ const RestaurantDetail = () => {
 
             <Separator />
 
-            {/* Popular Dishes */}
-            <div>
-              <h2 className="text-2xl font-bold mb-4">Popular Dishes</h2>
-              <div className="grid gap-4 sm:grid-cols-2">
-                {restaurant.popularDishes.map((dish, index) => (
-                  <Card key={index}>
-                    {dish.imageUrl && (
-                      <div className="aspect-[16/9] w-full overflow-hidden rounded-t-lg">
-                        <img
-                          src={dish.imageUrl}
-                          alt={dish.name}
-                          className="h-full w-full object-cover"
-                        />
-                      </div>
-                    )}
-                    <CardHeader className="p-4">
-                      <div className="flex items-start justify-between">
-                        <CardTitle className="text-lg">{dish.name}</CardTitle>
-                        <div className="font-medium">{dish.price}</div>
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-4 pt-0">
-                      <CardDescription>{dish.description}</CardDescription>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
-
-            <Separator />
-
             {/* Cultural Eats Review */}
             <div>
               <div className="flex items-center mb-4">
@@ -267,6 +236,37 @@ const RestaurantDetail = () => {
                   </div>
                 </CardContent>
               </Card>
+            </div>
+
+            <Separator />
+
+            {/* Popular Dishes */}
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Popular Dishes</h2>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {restaurant.popularDishes.map((dish, index) => (
+                  <Card key={index}>
+                    {dish.imageUrl && (
+                      <div className="aspect-[16/9] w-full overflow-hidden rounded-t-lg">
+                        <img
+                          src={dish.imageUrl}
+                          alt={dish.name}
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
+                    )}
+                    <CardHeader className="p-4">
+                      <div className="flex items-start justify-between">
+                        <CardTitle className="text-lg">{dish.name}</CardTitle>
+                        <div className="font-medium">{dish.price}</div>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="p-4 pt-0">
+                      <CardDescription>{dish.description}</CardDescription>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
             </div>
           </div>
 
