@@ -22,15 +22,23 @@ export function RatingStars({
     stars.push(
       <Star
         key={`star-${i}`}
-        className="fill-primary text-primary"
-        size={18}
+        className="fill-yellow-500 text-yellow-500"
+        size={20}
+        strokeWidth={2}
       />,
     );
   }
 
   // Add half star if needed
   if (hasHalfStar && stars.length < maxRating) {
-    stars.push(<StarHalf key="half-star" className="text-primary" size={18} />);
+    stars.push(
+      <StarHalf
+        key="half-star"
+        className="text-yellow-500"
+        size={20}
+        strokeWidth={2}
+      />,
+    );
   }
 
   // Add empty stars
@@ -39,8 +47,9 @@ export function RatingStars({
     stars.push(
       <Star
         key={`empty-star-${i}`}
-        className="text-muted-foreground"
-        size={18}
+        className="text-gray-400"
+        size={20}
+        strokeWidth={2}
       />,
     );
   }
