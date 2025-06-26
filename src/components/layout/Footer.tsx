@@ -23,30 +23,6 @@ export function Footer() {
                   All Restaurants
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/cuisines"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Cuisines
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/top-rated"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Top Rated
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/recent"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Recently Added
-                </Link>
-              </li>
             </ul>
           </div>
           <div className="space-y-3">
@@ -60,30 +36,7 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/privacy"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/terms"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Terms of Service
-                </Link>
-              </li>
+              
             </ul>
           </div>
           <div className="space-y-3">
