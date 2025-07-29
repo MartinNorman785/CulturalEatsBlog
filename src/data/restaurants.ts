@@ -18,6 +18,13 @@ export const restaurants: RestaurantType[] = [
       email: "info@thaiorchid.com",
       website: "www.thaiorchid.com",
     },
+    review: "",
+    ratings: {
+      service: 2,
+      atmosphere: 4.3,
+      taste: 4.7,
+      authenticity: 4.9
+    },
     hours: {
       monday: "11:00 AM - 10:00 PM",
       tuesday: "11:00 AM - 10:00 PM",
@@ -27,24 +34,7 @@ export const restaurants: RestaurantType[] = [
       saturday: "12:00 PM - 11:00 PM",
       sunday: "12:00 PM - 9:00 PM",
     },
-    reviews: [
-      {
-        id: "r1",
-        author: "Sarah Johnson",
-        rating: 5,
-        date: "2023-09-15",
-        comment:
-          "The Pad Thai was incredible! So much flavor and the perfect amount of spice.",
-      },
-      {
-        id: "r2",
-        author: "Michael Chen",
-        rating: 4.5,
-        date: "2023-08-22",
-        comment:
-          "Great atmosphere and attentive service. The green curry is a must-try.",
-      },
-    ],
+
     popularDishes: [
       {
         name: "Pad Thai",
