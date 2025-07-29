@@ -4,9 +4,16 @@ export interface RestaurantType {
   cuisine: string;
   description: string;
   location: string;
+  review: string;
   address: string;
   rating: number;
   priceRange: string;
+  ratings: {
+    atmosphere: number;
+    service: number,
+    authenticity: number
+    taste: number
+  }
   imageUrl: string;
   contactInfo: {
     phone: string;
@@ -22,13 +29,7 @@ export interface RestaurantType {
     saturday: string;
     sunday: string;
   };
-  reviews: {
-    id: string;
-    author: string;
-    rating: number;
-    date: string;
-    comment: string;
-  }[];
+
   popularDishes: {
     name: string;
     description: string;

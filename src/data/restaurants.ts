@@ -9,7 +9,7 @@ export const restaurants: RestaurantType[] = [
       "Authentic Thai cuisine in a cozy atmosphere with traditional decor and spices imported directly from Thailand.",
     location: "Bondi",
     address: "123 Bondi Rd, Bondi, NSW 2026",
-    rating: "4.3",
+    rating: 4.3,
     priceRange: "$$",
     imageUrl:
       "https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
@@ -57,7 +57,7 @@ export const restaurants: RestaurantType[] = [
         price: "$6.00",
         imageUrl:
           "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-      }
+      },
       {
        name: " Currascho No. 1",
         description:
