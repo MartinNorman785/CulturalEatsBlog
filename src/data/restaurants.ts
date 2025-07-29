@@ -12,7 +12,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.3,
     priceRange: "$$",
     imageUrl:
-      "./public/casamami.jpg",
+      "CULTURALEATSBLOG/public/casamami.jpg",
     contactInfo: {
       phone: "0450 626 477",
       email: "info@mamicasa.com",

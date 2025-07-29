@@ -11,12 +11,14 @@ import { Badge } from "@/components/ui/badge";
 import { RatingStars } from "./RatingStars";
 import { RestaurantType } from "@/types/restaurant";
 
+
 interface RestaurantCardProps {
   restaurant: RestaurantType;
 }
 
 export function RestaurantCard({ restaurant }: RestaurantCardProps) {
   return (
+
     <Link to={`/restaurant/${restaurant.id}`}>
       <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
         <div className="aspect-[16/9] w-full overflow-hidden">
