@@ -147,7 +147,7 @@ const RestaurantDetail = () => {
                         <HandHelping className="h-5 w-5 mr-2 text-primary" />
                         <span className="font-semibold">Service</span>
                       </div>
-                      <RatingStars rating={4.5} />
+                      <RatingStars rating={restaurant.ratings.service} />
                     </div>
 
                     <div className="flex items-center justify-between p-3 rounded-lg bg-secondary/10">
@@ -155,7 +155,7 @@ const RestaurantDetail = () => {
                         <Globe className="h-5 w-5 mr-2 text-primary" />
                         <span className="font-semibold">Authenticity</span>
                       </div>
-                      <RatingStars rating={4.8} />
+                      <RatingStars rating={restaurant.ratings.authenticity} />
                     </div>
 
                     <div className="flex items-center justify-between p-3 rounded-lg bg-secondary/10">
@@ -163,7 +163,7 @@ const RestaurantDetail = () => {
                         <ThumbsUp className="h-5 w-5 mr-2 text-primary" />
                         <span className="font-semibold">Taste</span>
                       </div>
-                      <RatingStars rating={4.7} />
+                      <RatingStars rating={restaurant.ratings.taste} />
                     </div>
 
                     <div className="flex items-center justify-between p-3 rounded-lg bg-secondary/10">
@@ -171,7 +171,7 @@ const RestaurantDetail = () => {
                         <Coffee className="h-5 w-5 mr-2 text-primary" />
                         <span className="font-semibold">Atmosphere</span>
                       </div>
-                      <RatingStars rating={4.3} />
+                      <RatingStars rating={restaurant.ratings.atmosphere} />
                     </div>
                   </div>
 
@@ -184,53 +184,7 @@ const RestaurantDetail = () => {
 
                     <div className="prose prose-sm max-w-none">
                       <p>
-                        {restaurant.name} offers a truly exceptional dining
-                        experience that beautifully captures the essence of{" "}
-                        {restaurant.cuisine} cuisine. From the moment you enter,
-                        the ambiance transports you to the heart of the culture
-                        they represent.
-                      </p>
-
-                      <p>
-                        The <strong>service</strong> is attentive without being
-                        intrusive. Staff members are knowledgeable about the
-                        menu and cultural significance of dishes, providing
-                        insightful recommendations to enhance your dining
-                        journey.
-                      </p>
-
-                      <p>
-                        Where this establishment truly shines is in its{" "}
-                        <strong>authenticity</strong>. The chef's commitment to
-                        traditional cooking methods and use of imported
-                        ingredients creates a genuine cultural experience. The
-                        flavors are bold and true to their origins, without
-                        unnecessary modifications to cater to Western palates.
-                      </p>
-
-                      <p>
-                        The <strong>taste</strong> is simply outstanding. Each
-                        dish balances complex flavors with remarkable precision.
-                        Signature dishes like the{" "}
-                        {restaurant.popularDishes[0]?.name || "house specials"}{" "}
-                        demonstrate exceptional technique and a deep
-                        understanding of the cuisine's core principles.
-                      </p>
-
-                      <p>
-                        The <strong>atmosphere</strong> complements the food
-                        perfectly, with décor that reflects cultural elements
-                        without falling into clichés or stereotypes. The music,
-                        lighting, and overall ambiance work together to create
-                        an immersive experience.
-                      </p>
-
-                      <p>
-                        In conclusion, {restaurant.name} stands out as a
-                        cultural ambassador, offering not just a meal but an
-                        education in {restaurant.cuisine} culinary tradition.
-                        It's a must-visit for food enthusiasts seeking authentic
-                        cultural dining experiences.
+                        {restaurant.review}
                       </p>
                     </div>
                   </div>
