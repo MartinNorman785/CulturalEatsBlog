@@ -42,7 +42,7 @@ export const restaurants: RestaurantType[] = [
           "A flavour-packed favourite, loaded with traditional fillings and spice. Generous portion and a great go-to option.",
         price: "$19.50",
         imageUrl:
-          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
       },
       {
         name: "Burrito Bowl",
