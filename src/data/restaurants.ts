@@ -12,7 +12,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.3,
     priceRange: "$$",
     imageUrl:
-      ".assets/casamami.jpg",
+  "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
     contactInfo: {
       phone: "0450 626 477",
       email: "info@mamicasa.com",
@@ -70,7 +70,7 @@ export const restaurants: RestaurantType[] = [
     features: ["Vegetarian Options", "Outdoor Seating", "BYO Deals"],
   },
   {
-    id: "1",
+    id: "2",
     name: "Thai Orchid",
     cuisine: "Thai",
     description:
