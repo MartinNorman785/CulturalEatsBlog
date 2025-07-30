@@ -12,7 +12,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.3,
     priceRange: "$$",
     imageUrl:
-  "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
     contactInfo: {
       phone: "0450 626 477",
       email: "info@mamicasa.com",
@@ -42,7 +42,7 @@ export const restaurants: RestaurantType[] = [
           "A flavour-packed favourite, loaded with traditional fillings and spice. Generous portion and a great go-to option.",
         price: "$19.50",
         imageUrl:
-          "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+          "https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       },
       {
         name: "Burrito Bowl",
@@ -80,7 +80,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.7,
     priceRange: "$$$",
     imageUrl:
-      "https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
     contactInfo: {
       phone: "(555) 123-4567",
       email: "info@thaiorchid.com",

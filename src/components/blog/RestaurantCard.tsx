@@ -22,11 +22,9 @@ export function RestaurantCard({ restaurant }: RestaurantCardProps) {
     <Link to={`/restaurant/${restaurant.id}`}>
       <Card className="h-full overflow-hidden transition-shadow hover:shadow-md">
         <div className="aspect-[16/9] w-full overflow-hidden">
-          <img
-            src={restaurant.imageUrl}
-            alt={restaurant.name}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-          />
+          <a href="https://imgbb.com/">
+            <img className="h-full w-full object-cover" src={restaurant.imageUrl} alt={restaurant.name} />
+          </a>
         </div>
         <CardHeader className="p-4">
           <div className="flex items-start justify-between">

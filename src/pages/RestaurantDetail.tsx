@@ -58,7 +58,7 @@ const RestaurantDetail = () => {
       <div className="relative h-[400px] lg:h-[500px]">
         <div className="absolute inset-0">
           <a href="https://imgbb.com/">
-            <img src={restaurant.imageUrl} alt={restaurant.name} border="0" className="h-full w-full object-cover">
+            <img className="h-full w-full object-cover" src={restaurant.imageUrl} alt={restaurant.name} />
           </a>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70"></div>
         </div>

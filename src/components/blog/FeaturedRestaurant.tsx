@@ -12,11 +12,9 @@ export function FeaturedRestaurant({ restaurant }: FeaturedRestaurantProps) {
   return (
     <div className="relative overflow-hidden rounded-lg">
       <div className="absolute inset-0">
-        <img
-          src={restaurant.imageUrl}
-          alt={restaurant.name}
-          className="h-full w-full object-cover"
-        />
+          <a href="https://imgbb.com/">
+            <img className="h-full w-full object-cover" src={restaurant.imageUrl} alt={restaurant.name} />
+          </a>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70"></div>
       </div>
 
