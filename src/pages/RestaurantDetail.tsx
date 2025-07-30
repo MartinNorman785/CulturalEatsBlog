@@ -57,11 +57,9 @@ const RestaurantDetail = () => {
       {/* Hero Section */}
       <div className="relative h-[400px] lg:h-[500px]">
         <div className="absolute inset-0">
-          <img
-            src={restaurant.imageUrl}
-            alt={restaurant.name}
-            className="h-full w-full object-cover"
-          />
+          <a href="https://imgbb.com/">
+            <img src={restaurant.imageUrl} alt={restaurant.name} border="0" className="h-full w-full object-cover">
+          </a>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70"></div>
         </div>
         <div className="container relative z-10 flex h-full flex-col justify-end pb-8 text-white">
