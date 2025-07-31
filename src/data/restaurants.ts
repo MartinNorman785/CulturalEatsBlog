@@ -6,7 +6,7 @@ export const restaurants: RestaurantType[] = [
     name: "Mami's Casa Latina",
     cuisine: "Mexican",
     description:
-      "Authentic Thai cuisine in a cozy atmosphere with traditional decor and spices imported directly from Thailand.",
+      "Classic Mexican restaurant with a family-style atmosphere.",
     location: "Bondi",
     address: "123 Bondi Rd, Bondi, NSW 2026",
     rating: 4.3,
@@ -18,8 +18,7 @@ export const restaurants: RestaurantType[] = [
       email: "info@mamicasa.com",
       website: "www.mamicasa.com.au",
     },
-    review: "",
-    ratings: {
+    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
       service: 3.4,
       atmosphere: 4,
       taste: 4.3,
@@ -71,55 +70,101 @@ export const restaurants: RestaurantType[] = [
   },
   {
     id: "2",
-    name: "Thai Orchid",
-    cuisine: "Thai",
+    name: "Menya Noodle Bar",
+    cuisine: "Japanese",
     description:
-      "Authentic Thai cuisine in a cozy atmosphere with traditional decor and spices imported directly from Thailand.",
-    location: "Downtown",
-    address: "123 Main St, City Center",
-    rating: 4.7,
-    priceRange: "$$$",
+      "Authentic Ramen restaurant hidden away near Darling Habour",
+    location: "Darling Harbour",
+    address: "Shop 2, 1 Market Street, Sydney NSW 2000",
+    rating: 4.5,
+    priceRange: "$$",
     imageUrl:
       "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
     contactInfo: {
-      phone: "(555) 123-4567",
-      email: "info@thaiorchid.com",
-      website: "www.thaiorchid.com",
+      phone: "02 9267 4649",
+      email: "",
+      website: "https://www.menya.com.au/",
     },
-    review: "",
+    review: "Menya Noodle Bar offers an authentic and satisfying taste of Japanese cuisine right in the heart of Sydney. The food was absolutely delicious — the tonkotsu ramen was rich and full of depth, with perfectly chewy noodles and tender slices of pork. The menu showcases a strong cultural presence, from traditional broths to Japanese-style rice bowls and gyoza, making it feel like a quick escape to Tokyo. For the quality of the food, the prices were very reasonable, and the combo meals in particular offer great value. It’s a perfect spot for anyone craving genuine Japanese flavours without breaking the bank. The only slight downside was the wait — the food took a little longer than expected to arrive, especially during the lunch rush. However, once it came out, it was well worth it. Altogether, Menya delivers on flavour, authenticity, and affordability. Highly recommended for ramen lovers!",
     ratings: {
-      service: 2,
-      atmosphere: 4.3,
-      taste: 4.7,
-      authenticity: 4.9
+      service: 3.5,
+      atmosphere: 4.2,
+      taste: 4.8,
+      authenticity: 5
     },
     hours: {
-      monday: "11:00 AM - 10:00 PM",
-      tuesday: "11:00 AM - 10:00 PM",
-      wednesday: "11:00 AM - 10:00 PM",
-      thursday: "11:00 AM - 10:00 PM",
-      friday: "11:00 AM - 11:00 PM",
-      saturday: "12:00 PM - 11:00 PM",
-      sunday: "12:00 PM - 9:00 PM",
+      monday: "11:00 AM - 2:30 PM, 5:30pm - 8:30pm",
+      tuesday: "11:00 AM - 2:30 PM, 5:30pm - 8:30pm",
+      wednesday: "11:00 AM - 2:30 PM, 5:30pm - 8:30pm",
+      thursday: "11:00 AM - 2:30 PM, 5:30pm - 9:00pm",
+      friday: "11:00 AM - 2:30 PM, 5:30pm - 9:00pm",
+      saturday: "11:00 AM - 2:30 PM, 5:30pm - 8:30pm",
+      sunday: "CLOSED",
     },
 
     popularDishes: [
       {
-        name: "Pad Thai",
+        name: "Chicken Katsu Curry Rice Bowl",
         description:
-          "Rice noodles stir-fried with eggs, tofu, bean sprouts, and peanuts",
-        price: "$16.95",
+          "Japanese style curry served with rice and crispy golden deep-frid chicken cutlet",
+        price: "$11.90",
         imageUrl:
           "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       },
       {
-        name: "Green Curry",
+        name: "Vegetable Lovers Ramen",
         description:
-          "Spicy curry with coconut milk, bamboo shoots, and Thai basil",
-        price: "$18.95",
+          "A vegetarian ramen featuring egg noodles in a savoury vegetable-based broth, topped with stir-fried mixed vegetables, shallots, and sesame seeds",
+        price: "$16.90",
       },
     ],
-    features: ["Vegetarian Options", "Full Bar", "Outdoor Seating", "Delivery"],
+    features: ["Vegetarian Options", "Full Bar", "Hidden Treasure"],
+  },
+  {
+    id: "3",
+    name: "Momo House 8848",
+    cuisine: "Nepalese",
+    description:
+      "Tucked away in the busy streets of Sydney’s CBD, Momo House 8848 is a cozy, open-style restaurant serving up authentic Nepalese food",
+    location: "Town Hall",
+    address: "456 Kent St, Level 2, Shop 45, Sydney NSW 2000",
+    rating: 4,
+    priceRange: "$$",
+    imageUrl:
+      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+    contactInfo: {
+      phone: "02 8022 8365 ",
+      email: "",
+      website: "www.8848momos.com.au",
+    },
+    review: "Conveniently located near Town Hall Station, Momo House 8848 is an excellent choice for anyone craving a delicious, affordable Nepalese meal. The restaurant has a welcoming open-style layout and a casual atmosphere that makes you feel instantly at ease.\n We recommend ordering plates to share as the serving sizes are generous, and it’s the best way to experience a variety of meals on offer. We sampled a range of dumplings, including steamed, chilli, and pan-fried varieties, with fillings like vegetable, chicken, and pork. Each type had its own features, with the pan-fried chicken momos standing out as a favourite for their crisp base and juicy filling. \n The service was excellent, staff were attentive, friendly, and happy to answer questions and give recommendations. Whether you’re new to Nepalese food or a longtime fan of momos, the experience here is both accessible and enjoyable.",
+    ratings: {
+      service: 5,
+      atmosphere: 4.2,
+      taste: 3,
+      authenticity: 3
+    },
+    hours: {
+      monday: "11:00 AM - 9:00 PM",
+      tuesday: "11:00 AM - 9:00 PM",
+      wednesday: "11:00 AM - 9:00 PM",
+      thursday: "11:00 AM - 9:00 PM",
+      friday: "11:00 AM - 9:00 PM",
+      saturday: "11:00 AM - 9:00 PM",
+      sunday: "11:00 AM - 9:00 PM",
+    },
+
+    popularDishes: [
+      {
+        name: "Pan Fried Chicken Momo's",
+        description:
+          "Pan fried momos are Nepalese filled dumplings which have a crispy texture on one side and smooth on the other, filled with flavourful chicken and spices. Perfect for sharing",
+        price: "$18.00",
+        imageUrl:
+          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      },
+    ],
+    features: ["Vegetarian Options", "Full Bar", "Hidden Treasure"],
   }
   
 ];
@@ -136,5 +181,5 @@ export const cuisines = [
   { value: "Vietnamese", label: "Vietnamese" },
   { value: "Korean", label: "Korean" },
   { value: "Mediterranean", label: "Mediterranean" },
-  { value: "Middle Eastern", label: "Middle Eastern" },
+  { value: "Nepalese", label: "Nepalese" },
 ];
