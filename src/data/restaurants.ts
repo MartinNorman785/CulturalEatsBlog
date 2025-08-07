@@ -41,7 +41,7 @@ export const restaurants: RestaurantType[] = [
           "A flavour-packed favourite, loaded with traditional fillings and spice. Generous portion and a great go-to option.",
         price: "$19.50",
         imageUrl:
-          "https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "",
       },
       {
         name: "Burrito Bowl",
@@ -55,7 +55,7 @@ export const restaurants: RestaurantType[] = [
           "Both traditional and tasty, but the lamb stood out with better flavour and texture. The only downside? The tacos could use a slightly larger serving size.",
         price: "$6.00",
         imageUrl:
-          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "",
       },
       {
        name: " Currascho No. 1",
@@ -63,7 +63,7 @@ export const restaurants: RestaurantType[] = [
           "Extremely tender, well-marinated meat—authentic and delicious. Portion size is smaller but the quality makes up for it.",
         price: "$18.00",
         imageUrl:
-          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "",
       }
     ],
     features: ["Vegetarian Options", "Outdoor Seating", "BYO Deals"],
@@ -79,7 +79,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.5,
     priceRange: "$$",
     imageUrl:
-      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+      "https://i.ibb.co/v4hBqYNB/image.png",
     contactInfo: {
       phone: "02 9267 4649",
       email: "",
@@ -109,7 +109,7 @@ export const restaurants: RestaurantType[] = [
           "Japanese style curry served with rice and crispy golden deep-frid chicken cutlet",
         price: "$11.90",
         imageUrl:
-          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "",
       },
       {
         name: "Vegetable Lovers Ramen",
@@ -131,7 +131,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4,
     priceRange: "$$",
     imageUrl:
-      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+      "https://i.ibb.co/zqXv09w/image.png",
     contactInfo: {
       phone: "02 8022 8365 ",
       email: "",
@@ -161,7 +161,7 @@ export const restaurants: RestaurantType[] = [
           "Pan fried momos are Nepalese filled dumplings which have a crispy texture on one side and smooth on the other, filled with flavourful chicken and spices. Perfect for sharing",
         price: "$18.00",
         imageUrl:
-          "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+          "",
       },
     ],
     features: ["Vegetarian Options", "Full Bar", "Hidden Treasure"],
