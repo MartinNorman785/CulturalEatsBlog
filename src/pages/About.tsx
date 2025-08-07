@@ -21,16 +21,18 @@ const About = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold">Our Mission</h2>
             <p className="text-muted-foreground">
-              At CulturalEats, we're passionate about celebrating the rich
-              diversity of cultural cuisines from around the world. Our mission
-              is to help food enthusiasts discover authentic dining experiences
-              that represent the true flavors and traditions of various
-              cultures.
+              We are a group of passionate students on a flavorful journey to explore, experience,
+              and share the rich diversity of cultural foods from around the world. 
+              As part of our school’s CAS (Creativity, Activity, Service) project, we’ve launched this
+              initiative to broaden our understanding of different cultures through one of the most
+              universal languages — food.
             </p>
             <p className="text-muted-foreground">
-              Founded in 2023, our blog has quickly become a trusted resource
-              for honest reviews, cultural insights, and recommendations for the
-              best ethnic restaurants in the city.
+              Each week, we sample dishes from different cultural cuisines — whether from
+              family kitchens, local restaurants, or community events — and write honest,
+              respectful reviews. We research the history and significance of each dish, 
+              try our hand at cooking when possible, and reflect on how food can
+              connect people across traditions and borders.
             </p>
           </div>
         </div>
@@ -48,29 +50,35 @@ const About = () => {
             <div className="space-y-2">
               <h3 className="font-medium">Multiple Visits</h3>
               <p className="text-sm text-muted-foreground">
-                We visit each restaurant at least twice before publishing a
-                review to ensure consistency.
+                <li>
+                Service – How welcoming, attentive, and helpful the staff are. We value warmth and hospitality,
+                especially in cultural spaces where service often reflects tradition.
+                </li>
+
+                <li>
+                  Authenticity – How well the food reflects the cultural origins it represents. 
+                  We research traditional ingredients, cooking methods, and presentation, and compare this to our dining experience.
+
+                </li>
+                              
+                <li>
+                  Atmosphere – The ambiance and environment of the restaurant or food venue, including décor,
+                 cultural touches, and overall comfort.
+                </li>
+
+                <li>
+                  Taste – The most subjective category, but one we approach thoughtfully.
+                  We consider flavour, balance, seasoning, texture, and overall enjoyment of the dish.
+                </li>
+
+
               </p>
             </div>
             <div className="space-y-2">
               <h3 className="font-medium">Anonymous Dining</h3>
               <p className="text-sm text-muted-foreground">
-                Our reviewers dine anonymously and pay for all meals to ensure
-                an authentic experience.
-              </p>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-medium">Cultural Context</h3>
-              <p className="text-sm text-muted-foreground">
-                We research the cultural background of cuisines to provide
-                context and authenticity benchmarks.
-              </p>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-medium">Comprehensive Ratings</h3>
-              <p className="text-sm text-muted-foreground">
-                Our ratings consider food quality, authenticity, service,
-                ambiance, and value.
+                Our reviewers dine and pay for all meals to ensure an authentic experience. 
+                We order a variety of dishes to try to experiences as much of the website as possible
               </p>
             </div>
           </div>
@@ -87,43 +95,26 @@ const About = () => {
 
           <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
             <div className="text-center">
-              <div className="aspect-square w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-                  alt="Team member"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <h3 className="font-medium">Sarah Johnson</h3>
-              <p className="text-sm text-muted-foreground">
-                Founder & Lead Critic
-              </p>
+              <h3 className="font-medium">Dominic Spender McGuinness</h3>
             </div>
             <div className="text-center">
-              <div className="aspect-square w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-                  alt="Team member"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <h3 className="font-medium">Michael Patel</h3>
-              <p className="text-sm text-muted-foreground">
-                Asian Cuisine Specialist
-              </p>
+              <h3 className="font-medium">Oliver Patrick</h3>
             </div>
             <div className="text-center">
-              <div className="aspect-square w-40 mx-auto mb-4 overflow-hidden rounded-full">
-                <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1788&q=80"
-                  alt="Team member"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <h3 className="font-medium">Elena Rodriguez</h3>
-              <p className="text-sm text-muted-foreground">
-                Latin American Expert
-              </p>
+              <h3 className="font-medium">Martin Norman</h3>
+            </div>
+          </div>
+ 
+
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+            <div className="text-center">
+              <h3 className="font-medium">Andrea Trahana</h3>
+            </div>
+            <div className="text-center">
+              <h3 className="font-medium">Stephanie Whetters</h3>
+            </div>
+            <div className="text-center">
+              <h3 className="font-medium">Keet Van De Zande</h3>
             </div>
           </div>
         </div>
@@ -161,9 +152,6 @@ const About = () => {
           </div>
         </div>
 
-        <div className="max-w-3xl mx-auto mt-16">
-          <NewsletterSignup />
-        </div>
       </div>
     </MainLayout>
   );
