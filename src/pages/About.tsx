@@ -106,7 +106,7 @@ const About = () => {
               <h3 className="font-medium">Stephanie Whetters</h3>
             </div>
             <div className="text-center">
-              <h3 className="font-medium">Keet Van De Zande</h3>
+              <h3 className="font-medium">Keet Van de Zande</h3>
             </div>
           </div>
         </div>

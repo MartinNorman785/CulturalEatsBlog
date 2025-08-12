@@ -128,7 +128,7 @@ export const restaurants: RestaurantType[] = [
       "Tucked away in the busy streets of Sydney’s CBD, Momo House 8848 is a cozy, open-style restaurant serving up authentic Nepalese food",
     location: "Town Hall",
     address: "456 Kent St, Level 2, Shop 45, Sydney NSW 2000",
-    rating: 4,
+    rating: 3.8,
     priceRange: "$$",
     imageUrl:
       "https://i.ibb.co/zqXv09w/image.png",
