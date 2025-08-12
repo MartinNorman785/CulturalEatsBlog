@@ -1,3 +1,4 @@
+import React from 'react'
 import { MainLayout } from "@/components/layout/MainLayout";
 import { cuisines, restaurants } from "@/data/restaurants";
 import { Link } from "react-router-dom";

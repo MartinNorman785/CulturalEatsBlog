@@ -2,6 +2,7 @@ import { MainLayout } from "@/components/layout/MainLayout";
 import { NewsletterSignup } from "@/components/blog/NewsletterSignup";
 import { Separator } from "@/components/ui/separator";
 import { Instagram, Twitter, Facebook, Mail } from "lucide-react";
+import React from 'react'
 
 const About = () => {
   return (

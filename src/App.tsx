@@ -9,6 +9,7 @@ import RestaurantDetail from "./pages/RestaurantDetail";
 import CuisinesPage from "./pages/Cuisines";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import React from 'react'
 
 const queryClient = new QueryClient();
 

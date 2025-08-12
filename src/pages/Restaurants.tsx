@@ -1,3 +1,4 @@
+import React from 'react'
 import { MainLayout } from "@/components/layout/MainLayout";
 import { RestaurantGrid } from "@/components/blog/RestaurantGrid";
 import { restaurants, cuisines } from "@/data/restaurants";
