@@ -47,7 +47,6 @@ const About = () => {
             diners and restaurant owners. Here's how we approach our reviews:
           </p>
 
-          <div className="grid gap-6 sm:grid-cols-2">
             <div className="space-y-2">
               <h3 className="font-medium">Multiple Visits</h3>
               <p className="text-sm text-muted-foreground">
@@ -72,7 +71,6 @@ const About = () => {
                   We consider flavour, balance, seasoning, texture, and overall enjoyment of the dish.
                 </li>
               </p>
-            </div>
           </div>
         </div>
 
