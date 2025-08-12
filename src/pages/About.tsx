@@ -52,7 +52,7 @@ const About = () => {
               <h3 className="font-medium">Multiple Visits</h3>
               <p className="text-sm text-muted-foreground">
                 <li>
-                <b>Service</b></> – How welcoming, attentive, and helpful the staff are. We value warmth and hospitality,
+                <b>Service</b> – How welcoming, attentive, and helpful the staff are. We value warmth and hospitality,
                 especially in cultural spaces where service often reflects tradition.
                 </li>
 
