@@ -51,34 +51,25 @@ const About = () => {
               <h3 className="font-medium">Multiple Visits</h3>
               <p className="text-sm text-muted-foreground">
                 <li>
-                Service – How welcoming, attentive, and helpful the staff are. We value warmth and hospitality,
+                <b>Service</b></> – How welcoming, attentive, and helpful the staff are. We value warmth and hospitality,
                 especially in cultural spaces where service often reflects tradition.
                 </li>
 
                 <li>
-                  Authenticity – How well the food reflects the cultural origins it represents. 
+                  <b>Authenticity</b> – How well the food reflects the cultural origins it represents. 
                   We research traditional ingredients, cooking methods, and presentation, and compare this to our dining experience.
 
                 </li>
                               
                 <li>
-                  Atmosphere – The ambiance and environment of the restaurant or food venue, including décor,
+                  <b>Atmosphere</b> – The ambiance and environment of the restaurant or food venue, including décor,
                  cultural touches, and overall comfort.
                 </li>
 
                 <li>
-                  Taste – The most subjective category, but one we approach thoughtfully.
+                  <b>Taste</b> – The most subjective category, but one we approach thoughtfully.
                   We consider flavour, balance, seasoning, texture, and overall enjoyment of the dish.
                 </li>
-
-
-              </p>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-medium">Anonymous Dining</h3>
-              <p className="text-sm text-muted-foreground">
-                Our reviewers dine and pay for all meals to ensure an authentic experience. 
-                We order a variety of dishes to try to experiences as much of the website as possible
               </p>
             </div>
           </div>
