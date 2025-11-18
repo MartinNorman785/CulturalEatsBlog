@@ -266,7 +266,7 @@ export const restaurants: RestaurantType[] = [
         price: "$55 per Person"
       }
     ],
-    features: ["Vegetarian Options", "Family Friendly", "Group Bookings"],
+    features: ["Communal Platters", "Family Friendly", "Spciy foods"],
   }
   
 ];
