@@ -216,6 +216,57 @@ export const restaurants: RestaurantType[] = [
       }
     ],
     features: ["Vegetarian Options", "Family Friendly", "Group Bookings"],
+  },
+  {
+    id: "5",
+    name: "Jambo Jambo African Restaurant",
+    cuisine: "Ethiopian",
+    description:
+      "Jambo Jambo African Restaurant serving Sydney with delicious Ethiopian cuisine. Enjoy a variety of chicken, beef and vegetarian dishes.",
+    location: "Glebe",
+    address: "89 Glebe Point Road, Glebe 2037 Sydney",
+    rating: 4.2,
+    priceRange: "$$",
+    imageUrl:
+      "https://i.ibb.co/QvkfvJgF/6212b11961a42e9f88e9bfa2b6774d0bb5026c46.webp", 
+    contactInfo: {
+      phone: "(02) 8969 0871",
+      email: "booking@jambojamborestaurant.com.au",
+      website: "https://www.jambojamborestaurant.com.au/contact/",
+    },
+    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
+      service: 4.8,
+      atmosphere: 4.5,
+      taste: 3.6,
+      authenticity: 4.6
+    },
+    hours: {
+      monday: "",
+      tuesday: "6:00 PM - 11:00 PM",
+      wednesday: "6:00 PM - 11:00 PM",
+      thursday: "6:00 PM - 11:00 PM",
+      friday: "6:00 PM - 11:00 PM",
+      saturday: "6:00 PM - 11:00 PM",
+      sunday: "6:00 PM - 11:00 PM",
+    },
+
+    popularDishes: [
+      {
+        name: "Kifto",
+        description:
+          "Minced topside beef mixed with hot Ethiopian chilli, mitmita, and spiced butter, served on lettuce cups..",
+        price: "$30.00",
+        imageUrl:
+          "",
+      },
+      {
+      name: "Combination Platter",
+        description:
+          "You eat by tearing off a piece of injera, using it to grab some wot (stew), and putting it directly in your mouth.",
+        price: "$55 per Person"
+      }
+    ],
+    features: ["Vegetarian Options", "Family Friendly", "Group Bookings"],
   }
   
 ];
@@ -233,4 +284,5 @@ export const cuisines = [
   { value: "Korean", label: "Korean" },
   { value: "Mediterranean", label: "Mediterranean" },
   { value: "Nepalese", label: "Nepalese" },
+  { value: "Ethiopian", label: "Ethiopian" }
 ];
