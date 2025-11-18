@@ -209,12 +209,6 @@ export const restaurants: RestaurantType[] = [
           "",
       },
       {
-        name: "Burrito Bowl",
-        description:
-          "Home made spanakopita, silverbeet, leeks, spinach, feta",
-        price: "$26.00",
-      },
-      {
       name: "House smoked salmon carpaccio",
         description:
           "herb salsa, garlic, greek yoghurt, pickles & feta",
