@@ -267,6 +267,73 @@ export const restaurants: RestaurantType[] = [
       }
     ],
     features: ["Communal Platters", "Family Friendly", "Spciy foods"],
+  },
+  {
+    id: "6",
+    name: "Belles Hot Chicken",
+    cuisine: "American",
+    description:
+      "Southern Style Spicy Chicken wings",
+    location: "Barangaroo",
+    address: "123 Bondi Rd, Bondi, NSW 2026",
+    rating: 4.3,
+    priceRange: "$$",
+    imageUrl:
+      "https://i.ibb.co/Ldtnq7t9/download-2.jpg",
+    contactInfo: {
+      phone: "0450 626 477",
+      email: "info@mamicasa.com",
+      website: "www.mamicasa.com.au",
+    },
+    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
+      service: 3.4,
+      atmosphere: 4,
+      taste: 4.3,
+      authenticity: 4.8
+    },
+    hours: {
+      monday: "10:00 AM - 8:30 PM",
+      tuesday: "10:00 AM - 9:00 PM",
+      wednesday: "10:00 AM - 9:00 PM",
+      thursday: "10:00 AM - 9:00 PM",
+      friday: "10:00 AM - 9:00 PM",
+      saturday: "10:00 PM - 9:00 PM",
+      sunday: "10:00 PM - 8:30 PM",
+    },
+
+    popularDishes: [
+      {
+        name: "Burrito",
+        description:
+          "A flavour-packed favourite, loaded with traditional fillings and spice. Generous portion and a great go-to option.",
+        price: "$19.50",
+        imageUrl:
+          "",
+      },
+      {
+        name: "Burrito Bowl",
+        description:
+          "Hearty, colourful, and filled with fresh, well-seasoned ingredients. Arrived exactly as expected—big on portion, big on taste.",
+        price: "$16.00",
+      },
+      {
+      name: "Lamb and Birra Tacos",
+        description:
+          "Both traditional and tasty, but the lamb stood out with better flavour and texture. The only downside? The tacos could use a slightly larger serving size.",
+        price: "$6.00",
+        imageUrl:
+          "",
+      },
+      {
+       name: " Currascho No. 1",
+        description:
+          "Extremely tender, well-marinated meat—authentic and delicious. Portion size is smaller but the quality makes up for it.",
+        price: "$18.00",
+        imageUrl:
+          "",
+      }
+    ],
+    features: ["Vegetarian Options", "Outdoor Seating", "BYO Deals"],
   }
   
 ];
@@ -284,5 +351,6 @@ export const cuisines = [
   { value: "Korean", label: "Korean" },
   { value: "Mediterranean", label: "Mediterranean" },
   { value: "Nepalese", label: "Nepalese" },
-  { value: "Ethiopian", label: "Ethiopian" }
+  { value: "Ethiopian", label: "Ethiopian" },
+  { value: "American", label: "American" }
 ];
