@@ -2,7 +2,7 @@ import { RestaurantType } from "@/types/restaurant";
 
 export const restaurants: RestaurantType[] = [
   {
-    id: "6",
+    id: "1",
     name: "Belles Hot Chicken",
     cuisine: "American",
     description:
@@ -61,7 +61,7 @@ export const restaurants: RestaurantType[] = [
     features: ["Spicy", "Outdoor Seating", "Bookings"],
   },
   {
-    id: "1",
+    id: "6",
     name: "Mami's Casa Latina",
     cuisine: "Mexican",
     description:
