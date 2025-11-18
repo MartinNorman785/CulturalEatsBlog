@@ -165,6 +165,63 @@ export const restaurants: RestaurantType[] = [
       },
     ],
     features: ["Vegetarian Options", "Full Bar", "Hidden Treasure"],
+  },
+  {
+    id: "4",
+    name: "Aghora",
+    cuisine: "Mediterranean",
+    description:
+      "Mediterranean-inspired cuisine in a homely atmosphere",
+    location: "Glebe",
+    address: "172. St. Johns road, Glebe 2037 Sydney",
+    rating: 4.5,
+    priceRange: "$$$",
+    imageUrl:
+      "https://ibb.co/qYt6jsYW", 
+    contactInfo: {
+      phone: "0451 597 846",
+      email: "info@ahgoraglebe.com.au",
+      website: "www.ahgoraglebe.com.au",
+    },
+    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
+      service: 3.7,
+      atmosphere: 4,
+      taste: 4.8,
+      authenticity: 4.7
+    },
+    hours: {
+      monday: "5:30 PM - 11:00 PM",
+      tuesday: "",
+      wednesday: "11:30 AM - 11:00 PM",
+      thursday: "11:30 AM - 11:00 PM",
+      friday: "11:30 AM - 11:00 PM",
+      saturday: "8:30 AM - 11:00 PM",
+      sunday: "8:30 AM - 11:00 PM",
+    },
+
+    popularDishes: [
+      {
+        name: "Spanakopita",
+        description:
+          "A flavour-packed favourite, loaded with traditional fillings and spice. Generous portion and a great go-to option.",
+        price: "$19.50",
+        imageUrl:
+          "",
+      },
+      {
+        name: "Burrito Bowl",
+        description:
+          "Home made spanakopita, silverbeet, leeks, spinach, feta",
+        price: "$26.00",
+      },
+      {
+      name: "House smoked salmon carpaccio",
+        description:
+          "herb salsa, garlic, greek yoghurt, pickles & feta",
+        price: "$28.00"
+      }
+    ],
+    features: ["Vegetarian Options", "Family Friendly", "Group Bookings"],
   }
   
 ];
