@@ -2,6 +2,65 @@ import { RestaurantType } from "@/types/restaurant";
 
 export const restaurants: RestaurantType[] = [
   {
+    id: "6",
+    name: "Belles Hot Chicken",
+    cuisine: "American",
+    description:
+      "Southern Style Spicy Chicken wings",
+    location: "Barangaroo",
+    address: "123 Bondi Rd, Bondi, NSW 2026",
+    rating: 3.8,
+    priceRange: "$",
+    imageUrl:
+      "https://i.ibb.co/xSgtBpxF/Belles-Barangaroo-lr-30.jpg",
+    contactInfo: {
+      phone: "02 83557879",
+      email: "barangaroo@belleshotchicken.com",
+      website: "https://belleshotchicken.com/locations/barangaroo/",
+    },
+    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
+      service: 3.4,
+      atmosphere: 4,
+      taste: 4.9,
+      authenticity: 4.3
+    },
+    hours: {
+      monday: "11.30 AM - 9.00 PM",
+      tuesday: "11.30 AM - 9.00 PM",
+      wednesday: "11.30 AM - 9.00 PM",
+      thursday: "11.30 AM - 9.00 PM",
+      friday: "11.30 AM - 9.00 PM",
+      saturday: "11.30 AM - 9.00 PM",
+      sunday: "11.30 AM - 9.00 PM",
+    },
+
+    popularDishes: [
+      {
+        name: "Tenders",
+        description:
+          "CHOOSE YOUR SPICE: Southern, Original Nashville, Traveller, Actually Hot, Really F**kin Hot",
+        price: "$24.00",
+        imageUrl:
+          "",
+      },
+      {
+        name: "Wings",
+        description:
+          "CHOOSE YOUR SPICE: Southern, Original Nashville, Traveller, Actually Hot, Really F**kin Hot",
+        price: "$21.00",
+      },
+      {
+      name: "Supreme Hot Chicken Sandwich",
+        description:
+          "Southern tenders, pickles, lettuce, milk bun",
+        price: "$15.90",
+        imageUrl:
+          "",
+      }
+    ],
+    features: ["Spicy", "Outdoor Seating", "Bookings"],
+  },
+  {
     id: "1",
     name: "Mami's Casa Latina",
     cuisine: "Mexican",
@@ -267,65 +326,6 @@ export const restaurants: RestaurantType[] = [
       }
     ],
     features: ["Communal Platters", "Family Friendly", "Spciy foods"],
-  },
-  {
-    id: "6",
-    name: "Belles Hot Chicken",
-    cuisine: "American",
-    description:
-      "Southern Style Spicy Chicken wings",
-    location: "Barangaroo",
-    address: "123 Bondi Rd, Bondi, NSW 2026",
-    rating: 3.8,
-    priceRange: "$",
-    imageUrl:
-      "https://i.ibb.co/xSgtBpxF/Belles-Barangaroo-lr-30.jpg",
-    contactInfo: {
-      phone: "02 83557879",
-      email: "barangaroo@belleshotchicken.com",
-      website: "https://belleshotchicken.com/locations/barangaroo/",
-    },
-    review: "Tucked away in the heart of Bondi, Mami Casa delivers a warm, homely atmosphere matched by the friendliness of its staff and the authenticity of its food. We recently visited and tried a range of dishes from burritos to birria tacos and left satisfied, though with a few notes.\nThe burrito was a standout packed with flavour and generous in both taste and portion. It balanced richness and spice well, showcasing the kind of depth you’d expect from a traditional kitchen. The Currascho No. 1 offered incredibly tender meat, clearly cooked with care, though the portion size was on the smaller side compared to the other dishes. \n We sampled both lamb and birria tacos, which were well-made and traditional in presentation. The lamb edged out the birria for overall flavour and texture, though both were enjoyable. That said, the taco servings could have been a bit larger especially for those coming in hungry.\n The burrito bowl came exactly as described: hearty, colourful, and generous in portion. Each ingredient was fresh and well-seasoned, making it a perfect option for those wanting something lighter but still filling. \n What really set the experience apart was the warm service. The staff at Mami Casa were incredibly welcoming and made us feel right at home. The restaurant leans into tradition, both in flavour and hospitality, and it shows.\n Verdict: A solid spot for authentic Mexican fare in Bondi. Go for the burrito or burrito bowl if you're hungry, and don't skip the lamb tacos. Just be mindful that some portions like the tacos or currascho run smaller than others.",    ratings: {
-      service: 3.4,
-      atmosphere: 4,
-      taste: 4.9,
-      authenticity: 4.3
-    },
-    hours: {
-      monday: "11.30 AM - 9.00 PM",
-      tuesday: "11.30 AM - 9.00 PM",
-      wednesday: "11.30 AM - 9.00 PM",
-      thursday: "11.30 AM - 9.00 PM",
-      friday: "11.30 AM - 9.00 PM",
-      saturday: "11.30 AM - 9.00 PM",
-      sunday: "11.30 AM - 9.00 PM",
-    },
-
-    popularDishes: [
-      {
-        name: "Tenders",
-        description:
-          "CHOOSE YOUR SPICE: Southern, Original Nashville, Traveller, Actually Hot, Really F**kin Hot",
-        price: "$24.00",
-        imageUrl:
-          "",
-      },
-      {
-        name: "Wings",
-        description:
-          "CHOOSE YOUR SPICE: Southern, Original Nashville, Traveller, Actually Hot, Really F**kin Hot",
-        price: "$21.00",
-      },
-      {
-      name: "Supreme Hot Chicken Sandwich",
-        description:
-          "Southern tenders, pickles, lettuce, milk bun",
-        price: "$15.90",
-        imageUrl:
-          "",
-      }
-    ],
-    features: ["Spicy", "Outdoor Seating", "Bookings"],
   }
   
 ];
