@@ -177,7 +177,7 @@ export const restaurants: RestaurantType[] = [
     rating: 4.5,
     priceRange: "$$$",
     imageUrl:
-      "https://ibb.co/qYt6jsYW", 
+      "https://i.ibb.co/s907Rw96/Screenshot-2025-11-18-145240.png", 
     contactInfo: {
       phone: "0451 597 846",
       email: "info@ahgoraglebe.com.au",
